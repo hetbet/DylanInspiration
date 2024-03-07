@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Cool Website - Thanks Dylan</title>
+
+    <style>
+
+        /* HTML */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Body */
+        body {
+            margin: 0;
+
+            width: 100%;
+
+            background: linear-gradient(rgb(202, 202, 202), rgb(0, 0, 0));
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+
+            gap: 20px;
+
+            width: 50vw;
+
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+
+            text-shadow: none;
+
+            transition-duration: 2s;
+        }
+
+        a:hover {
+            text-shadow: 1px 1px 10px black;
+
+            transition-duration: 2s;
+        }
+
+        h2 {
+            color: white;
+
+            font-family: 'Segoe UI';
+        }
+
+        /*#####################*/
+
+        /* Home */
+        #home {
+            display: block;
+
+            width: 100%;
+            height: 100vh;
+
+            background-image: url('bgimage.jpg');
+            background-position: center;
+
+            background-position-y: -10px;
+            background-position-x: -5px;
+
+
+        }
+
+        /* Header */
+        header {
+            display: flex;
+
+            width: 100%;
+            height: 10vh;
+
+            justify-content: space-between;
+
+        }
+
+        #nameIcon {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 10px;
+
+            width: 40vw;
+            height: 10vh;
+
+            font-family: 'Segoe UI';
+            color: white;
+
+            align-items: center;
+        }
+
+
+        #linksSegment{
+            display: flex;
+            justify-content: space-evenly;
+
+            width: 40vw;
+        }
+
+        #scrollDown {
+            display: flex;
+            justify-content: center;
+
+            width: 100%;
+
+
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 20px;
+        }
+
+        #scrollDown > img {
+            /* background-color: white;
+            border-radius: 360px;
+            border: 3px solid black; */
+
+            height: 10vh;
+            width: auto;
+
+            filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(346deg) brightness(101%) contrast(101%);
+        }
+
+        /*#####################*/
+
+        /* About */
+        #about {
+
+            display: block;
+
+            width: 100%;
+            height: 100vh;
+
+            
+
+        }
+
+        /*#####################*/
+
+        /* Projects */
+        #projects {
+            display: block;
+
+            width: 100%;
+            height: 100vh;
+
+
+        }
+
+        /*#####################*/
+
+        /* Footer */
+        footer {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+
+            width: 100%;
+            height: 10vh;
+
+            background-color: grey;
+
+            text-align: center;
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- Home -->
+    <div  id="home" class="screenContainer">
+
+        <!-- Header -->
+        <header>
+            <div id="nameIcon">
+                <h1>Portfolio Website</h1>
+            </div>
+
+            <div id="linksSegment">
+                <ul>
+                    <li>
+                        <a href="#home">
+                            <h2>Home</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <h2>About</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects">
+                            <h2>Projects</h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Scroll Down Icon -->
+            
+            <div id="scrollDown">
+                <img src="scrolldown.png">
+            </div>
+
+
+        </header>
+
+    </div>
+
+    <!-- About -->
+    <div id="about" class="screenContainer">
+
+
+    </div>
+
+    <!-- Projects -->
+    <div id="projects" class="screenContainer">
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <span>Portfolio Design | Matthew Roberts</span>
+    </footer>
+
+
+<script>
+
+</script>
+</body>
+</html>
